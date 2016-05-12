@@ -4,9 +4,9 @@
   <subtitle>in future</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://future.github.io/"/>
+  <link href="http://infuture.pw/"/>
   <updated>2016-05-12T11:43:48.159Z</updated>
-  <id>http://future.github.io/</id>
+  <id>http://infuture.pw/</id>
   
   <author>
     <name>FrankyWen</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>hexo+github 创建博客</title>
-    <link href="http://future.github.io/2016/05/12/hexo-github-blog/"/>
-    <id>http://future.github.io/2016/05/12/hexo-github-blog/</id>
+    <link href="http://infuture.pw/2016/05/12/hexo-github-blog/"/>
+    <id>http://infuture.pw/2016/05/12/hexo-github-blog/</id>
     <published>2016-05-12T06:09:27.661Z</published>
     <updated>2016-05-12T11:43:48.159Z</updated>
     
@@ -45,8 +45,8 @@
   
   <entry>
     <title>hexo 常用命令(command)</title>
-    <link href="http://future.github.io/2016/05/11/hexo-command/"/>
-    <id>http://future.github.io/2016/05/11/hexo-command/</id>
+    <link href="http://infuture.pw/2016/05/11/hexo-command/"/>
+    <id>http://infuture.pw/2016/05/11/hexo-command/</id>
     <published>2016-05-11T07:21:52.438Z</published>
     <updated>2016-05-12T12:20:02.807Z</updated>
     
