@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Future</title>
+  <subtitle>in future</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://future.github.io/"/>
+  <updated>2016-05-12T11:43:48.159Z</updated>
+  <id>http://future.github.io/</id>
+  
+  <author>
+    <name>FrankyWen</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo+github 创建博客</title>
+    <link href="http://future.github.io/2016/05/12/hexo-github-blog/"/>
+    <id>http://future.github.io/2016/05/12/hexo-github-blog/</id>
+    <published>2016-05-12T06:09:27.661Z</published>
+    <updated>2016-05-12T11:43:48.159Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;安装node&quot;&gt;&lt;a href=&quot;#安装node&quot; class=&quot;headerlink&quot; title=&quot;安装node&quot;&gt;&lt;/a&gt;安装node&lt;/h3&gt;&lt;h3 id=&quot;安装TortoiseGit&quot;&gt;&lt;a href=&quot;#安装TortoiseGit&quot; class=&quot;headerlink&quot; title=&quot;安装TortoiseGit&quot;&gt;&lt;/a&gt;安装TortoiseGit&lt;/h3&gt;&lt;h3 id=&quot;在GitHub创建用户&quot;&gt;&lt;a href=&quot;#在GitHub创建用户&quot; class=&quot;headerlink&quot; title=&quot;在GitHub创建用户&quot;&gt;&lt;/a&gt;在&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;创建用户&lt;/h3&gt;&lt;p&gt;创建用户(sign up)，并创建仓库(New repository)，Repository name 以新建的github账户名为前缀例如 用户名.github.io&lt;/p&gt;
+&lt;h3 id=&quot;本地执行命令安装&quot;&gt;&lt;a href=&quot;#本地执行命令安装&quot; class=&quot;headerlink&quot; title=&quot;本地执行命令安装&quot;&gt;&lt;/a&gt;本地执行命令安装&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo npm install -g hexo&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;执行以下命令初始化项目&quot;&gt;&lt;a href=&quot;#执行以下命令初始化项目&quot; class=&quot;headerlink&quot; title=&quot;执行以下命令初始化项目&quot;&gt;&lt;/a&gt;执行以下命令初始化项目&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo init&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;安装模板&quot;&gt;&lt;a href=&quot;#安装模板&quot; class=&quot;headerlink&quot; title=&quot;安装模板&quot;&gt;&lt;/a&gt;安装模板&lt;/h3&gt;&lt;p&gt;（可以去&lt;a href=&quot;https://hexo.io/themes/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官网&lt;/a&gt;选择自己喜欢的），复制模板git地址，使用TortoiseGit clone到themes目录下，注意一下需要文件夹名。&lt;/p&gt;
+&lt;h3 id=&quot;安装相应的插件&quot;&gt;&lt;a href=&quot;#安装相应的插件&quot; class=&quot;headerlink&quot; title=&quot;安装相应的插件&quot;&gt;&lt;/a&gt;安装相应的&lt;a href=&quot;https://hexo.io/plugins/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;插件&lt;/a&gt;&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-renderer-less --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;安装Web-feed所需插件&quot;&gt;&lt;a href=&quot;#安装Web-feed所需插件&quot; class=&quot;headerlink&quot; title=&quot;安装Web feed所需插件&quot;&gt;&lt;/a&gt;安装Web feed所需插件&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-generator-feed --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;安装站点地图生成插件&quot;&gt;&lt;a href=&quot;#安装站点地图生成插件&quot; class=&quot;headerlink&quot; title=&quot;安装站点地图生成插件&quot;&gt;&lt;/a&gt;安装站点地图生成插件&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-generator-sitemap --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;安装搜索插件&quot;&gt;&lt;a href=&quot;#安装搜索插件&quot; class=&quot;headerlink&quot; title=&quot;安装搜索插件&quot;&gt;&lt;/a&gt;安装搜索插件&lt;/h3&gt;&lt;p&gt;现在官网提供两种，根据模板来选择相应的插件&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm i -S hexo-generator-json-content&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;绑定域名&quot;&gt;&lt;a href=&quot;#绑定域名&quot; class=&quot;headerlink&quot; title=&quot;绑定域名&quot;&gt;&lt;/a&gt;绑定域名&lt;/h3&gt;&lt;p&gt;1、注册好域名，解析时选择CNAME解析，解析到注册时写的Repository name， 对www、@都进行解析&lt;br&gt;2、在github里新建(new file) CNAME文件，文件内容为绑定的域名&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;安装node&quot;&gt;&lt;a href=&quot;#安装node&quot; class=&quot;headerlink&quot; title=&quot;安装node&quot;&gt;&lt;/a&gt;安装node&lt;/h3&gt;&lt;h3 id=&quot;安装TortoiseGit&quot;&gt;&lt;a href=&quot;#安装TortoiseGit&quot; class=&quot;he
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo 常用命令(command)</title>
+    <link href="http://future.github.io/2016/05/11/hexo-command/"/>
+    <id>http://future.github.io/2016/05/11/hexo-command/</id>
+    <published>2016-05-11T07:21:52.438Z</published>
+    <updated>2016-05-12T12:20:02.807Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;简写&quot;&gt;&lt;a href=&quot;#简写&quot; class=&quot;headerlink&quot; title=&quot;简写&quot;&gt;&lt;/a&gt;简写&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo n == hexo new&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo p == hexo publish&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo g == hexo generate&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo s == hexo server&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo d == hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;服务器&quot;&gt;&lt;a href=&quot;#服务器&quot; class=&quot;headerlink&quot; title=&quot;服务器&quot;&gt;&lt;/a&gt;服务器&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server &lt;span class=&quot;comment&quot;&gt;#Hexo 会监视文件变动并自动更新，您无须重启服务器。&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server &lt;span class=&quot;_&quot;&gt;-s&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;#静态模式&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server -p 5000 &lt;span class=&quot;comment&quot;&gt;#更改端口&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server -i 192.168.1.1 &lt;span class=&quot;comment&quot;&gt;#自定义 IP&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo clean &lt;span class=&quot;comment&quot;&gt;#清除缓存 网页正常情况下可以忽略此条命令&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo g &lt;span class=&quot;comment&quot;&gt;#生成静态网页&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo d &lt;span class=&quot;comment&quot;&gt;#开始部署&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;监视文件变动&quot;&gt;&lt;a href=&quot;#监视文件变动&quot; class=&quot;headerlink&quot; title=&quot;监视文件变动&quot;&gt;&lt;/a&gt;监视文件变动&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate &lt;span class=&quot;comment&quot;&gt;#使用 Hexo 生成静态文件快速而且简单&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate --watch &lt;span class=&quot;comment&quot;&gt;#监视文件变动&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;完成后部署&quot;&gt;&lt;a href=&quot;#完成后部署&quot; class=&quot;headerlink&quot; title=&quot;完成后部署&quot;&gt;&lt;/a&gt;完成后部署&lt;/h3&gt;&lt;p&gt;下面两个命令的作用是相同的&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate --deploy hexo deploy --generate&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy -g hexo server -g&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&quot;草稿&quot;&gt;&lt;a href=&quot;#草稿&quot; class=&quot;headerlink&quot; title=&quot;草稿&quot;&gt;&lt;/a&gt;草稿&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo publish [layout] title;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;模版&quot;&gt;&lt;a href=&quot;#模版&quot; class=&quot;headerlink&quot; title=&quot;模版&quot;&gt;&lt;/a&gt;模版&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;postName&quot;&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;#新建文章&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new page &lt;span class=&quot;string&quot;&gt;&quot;pageName&quot;&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;#新建页面&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate &lt;span class=&quot;comment&quot;&gt;#生成静态页面至public目录&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server &lt;span class=&quot;comment&quot;&gt;#开启预览访问端口（默认端口4000，&#39;ctrl + c&#39;关闭server）&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy &lt;span class=&quot;comment&quot;&gt;#将.deploy目录部署到GitHub&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new [layout] &amp;lt;title&amp;gt; hexo new photo &lt;span class=&quot;string&quot;&gt;&quot;My Gallery&quot;&lt;/span&gt; hexo new &lt;span class=&quot;string&quot;&gt;&quot;Hello World&quot;&lt;/span&gt; --lang tw&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;变量说明&quot;&gt;&lt;a href=&quot;#变量说明&quot; class=&quot;headerlink&quot; title=&quot;变量说明&quot;&gt;&lt;/a&gt;变量说明&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;变量&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;layout&lt;/td&gt;
+&lt;td&gt;布局&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;title&lt;/td&gt;
+&lt;td&gt;标题&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;date&lt;/td&gt;
+&lt;td&gt;文件建立日期&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;title&lt;/td&gt;
+&lt;td&gt;使用Hexo搭建个人博客&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;layout&lt;/td&gt;
+&lt;td&gt;post&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;date&lt;/td&gt;
+&lt;td&gt;2014-03-03 19:07:43&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;comments&lt;/td&gt;
+&lt;td&gt;true&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;categories&lt;/td&gt;
+&lt;td&gt;Blog&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tags&lt;/td&gt;
+&lt;td&gt;[Hexo]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;keywords&lt;/td&gt;
+&lt;td&gt;Hexo, Blog&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;description&lt;/td&gt;
+&lt;td&gt;生命在于折腾，又把博客折腾到Hexo了。给Hexo点赞。&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:title&lt;/td&gt;
+&lt;td&gt;标题&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:year&lt;/td&gt;
+&lt;td&gt;建立的年份（4 位数）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:month&lt;/td&gt;
+&lt;td&gt;建立的月份（2 位数）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:i_month&lt;/td&gt;
+&lt;td&gt;建立的月份（去掉开头的零）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:day&lt;/td&gt;
+&lt;td&gt;建立的日期（2 位数）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;:i_day&lt;/td&gt;
+&lt;td&gt;建立的日期（去掉开头的零）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&quot;最常用命令&quot;&gt;&lt;a href=&quot;#最常用命令&quot; class=&quot;headerlink&quot; title=&quot;最常用命令&quot;&gt;&lt;/a&gt;最常用命令&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new page &amp;lt;title&amp;gt; hexo new post &amp;lt;title&amp;gt; &lt;span class=&quot;comment&quot;&gt;#写文章&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo n &lt;span class=&quot;comment&quot;&gt;#写文章&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo g &lt;span class=&quot;comment&quot;&gt;#生成&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo d &lt;span class=&quot;comment&quot;&gt;#部署 #可与 hexo g 合并为 hexo d -g&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;简写&quot;&gt;&lt;a href=&quot;#简写&quot; class=&quot;headerlink&quot; title=&quot;简写&quot;&gt;&lt;/a&gt;简写&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span c
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
