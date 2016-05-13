@@ -130,6 +130,15 @@
 .icon-search:before {
   content: "\f002";
 }
+.icon-html5:before {
+  content: "\f13b";
+}
+.icon-photo:before {
+  content: "\f03e";
+}
+.icon-picture-o:before {
+  content: "\f03e";
+}
 *,
 *::before,
 *::after {
