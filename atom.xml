@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://infuture.pw/"/>
-  <updated>2016-05-13T07:29:55.897Z</updated>
+  <updated>2016-07-26T02:22:53.082Z</updated>
   <id>http://infuture.pw/</id>
   
   <author>
@@ -16,103 +16,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>宝宝一个月多可爱搞笑样子</title>
-    <link href="http://infuture.pw/2016/05/13/baby-one-monthy/"/>
-    <id>http://infuture.pw/2016/05/13/baby-one-monthy/</id>
-    <published>2016-05-13T07:19:49.710Z</published>
-    <updated>2016-05-13T07:29:55.897Z</updated>
+    <title>常用正则</title>
+    <link href="http://infuture.pw/2016/07/26/hexo-command/"/>
+    <id>http://infuture.pw/2016/07/26/hexo-command/</id>
+    <published>2016-07-25T16:00:00.000Z</published>
+    <updated>2016-07-26T02:22:53.082Z</updated>
     
-    <content type="html">&lt;h3 id=&quot;睡觉时可爱的样子&quot;&gt;&lt;a href=&quot;#睡觉时可爱的样子&quot; class=&quot;headerlink&quot; title=&quot;睡觉时可爱的样子&quot;&gt;&lt;/a&gt;睡觉时可爱的样子&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://7xu0aj.com1.z0.glb.clouddn.com/baby-onemonthy/2016-02-14%20090216.jpg&quot; alt=&quot;&quot; title=&quot;睡觉时可爱的样子&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;刚喝饱奶&quot;&gt;&lt;a href=&quot;#刚喝饱奶&quot; class=&quot;headerlink&quot; title=&quot;刚喝饱奶&quot;&gt;&lt;/a&gt;刚喝饱奶&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://7xu0aj.com1.z0.glb.clouddn.com/baby-onemonthy/2016-02-13%20104635.jpg&quot; alt=&quot;&quot; title=&quot;刚喝饱奶欲睡&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://7xu0aj.com1.z0.glb.clouddn.com/baby-onemonthy/2016-02-13%20104649.jpg&quot; alt=&quot;&quot; title=&quot;刚喝饱奶欲睡&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;刚洗澡后得意的样子&quot;&gt;&lt;a href=&quot;#刚洗澡后得意的样子&quot; class=&quot;headerlink&quot; title=&quot;刚洗澡后得意的样子&quot;&gt;&lt;/a&gt;刚洗澡后得意的样子&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://7xu0aj.com1.z0.glb.clouddn.com/faeaeb9bc8e1769eb0152d49713342f1.jpg&quot; alt=&quot;&quot; title=&quot;刚洗澡后得意的样子&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://7xu0aj.com1.z0.glb.clouddn.com/baby-onemonthy/2016-02-11%20172039.jpg&quot; alt=&quot;&quot; title=&quot;刚洗澡后得意的样子&quot;&gt;&lt;/p&gt;
-</content>
+    <content type="html">&lt;h3 id=&quot;密码必须包含大写字母、小写字母、数字这三种字符，不能有空格，长度-6-15-位&quot;&gt;&lt;a href=&quot;#密码必须包含大写字母、小写字母、数字这三种字符，不能有空格，长度-6-15-位&quot; class=&quot;headerlink&quot; title=&quot;密码必须包含大写字母、小写字母、数字这三种字符，不能有空格，长度 6~15 位&quot;&gt;&lt;/a&gt;密码必须包含大写字母、小写字母、数字这三种字符，不能有空格，长度 6~15 位&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&quot;^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])[a-zA-Z0-9]&amp;#123;6,15&amp;#125;$&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;用户名-账号验证规则&quot;&gt;&lt;a href=&quot;#用户名-账号验证规则&quot; class=&quot;headerlink&quot; title=&quot;用户名/账号验证规则&quot;&gt;&lt;/a&gt;用户名/账号验证规则&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&quot;/^([a-zA-Z0-9@_.-])&amp;#123;5,30&amp;#125;$/&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;密码验证规则&quot;&gt;&lt;a href=&quot;#密码验证规则&quot; class=&quot;headerlink&quot; title=&quot;密码验证规则&quot;&gt;&lt;/a&gt;密码验证规则&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&quot;/^[A-Za-z0-9\!\@\#\$\%\^\*\.\`\(\)_-]&amp;#123;6,22&amp;#125;$/&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;睡觉时可爱的样子&quot;&gt;&lt;a href=&quot;#睡觉时可爱的样子&quot; class=&quot;headerlink&quot; title=&quot;睡觉时可爱的样子&quot;&gt;&lt;/a&gt;睡觉时可爱的样子&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://7xu0aj.com1.z0.glb.clouddn.co
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://infuture.pw/categories/essay/"/>
-    
-    
-      <category term="宝宝" scheme="http://infuture.pw/tags/%E5%AE%9D%E5%AE%9D/"/>
-    
-      <category term="可爱" scheme="http://infuture.pw/tags/%E5%8F%AF%E7%88%B1/"/>
-    
-      <category term="搞笑" scheme="http://infuture.pw/tags/%E6%90%9E%E7%AC%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>宝宝出生了</title>
-    <link href="http://infuture.pw/2016/05/13/baby-born/"/>
-    <id>http://infuture.pw/2016/05/13/baby-born/</id>
-    <published>2016-05-13T03:12:59.563Z</published>
-    <updated>2016-05-13T07:00:36.142Z</updated>
-    
-    <content type="html">&lt;h3 id=&quot;四天五夜的煎熬&quot;&gt;&lt;a href=&quot;#四天五夜的煎熬&quot; class=&quot;headerlink&quot; title=&quot;四天五夜的煎熬&quot;&gt;&lt;/a&gt;四天五夜的煎熬&lt;/h3&gt;&lt;p&gt;经过四天五夜的煎熬，晚上6点多宫口终于开到6公分了，太太勉强喝了些粥与一点汤。医生让我离开待产房，说快要生了。等了2个小时多，直到8点多听到宝宝的哭声，哭声很宏亮，肺活量很好，哭好一阵才停下来。不知道太太怎么样了。在外面又等了近一个小时，不见有医院出来，我自己跑进去了。宝宝正在太太怀里喝奶，看太太的精神状态还好，我与太太都很开心。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://7xu0aj.com1.z0.glb.clouddn.com/baby-born/2015-12-15-224353.jpg&quot; alt=&quot;&quot; title=&quot;挂宝宝床边的卡片&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://7xu0aj.com1.z0.glb.clouddn.com/baby-born/2015-12-16-111639.jpg&quot; alt=&quot;&quot; title=&quot;第一次洗澡后的宝宝&quot;&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;四天五夜的煎熬&quot;&gt;&lt;a href=&quot;#四天五夜的煎熬&quot; class=&quot;headerlink&quot; title=&quot;四天五夜的煎熬&quot;&gt;&lt;/a&gt;四天五夜的煎熬&lt;/h3&gt;&lt;p&gt;经过四天五夜的煎熬，晚上6点多宫口终于开到6公分了，太太勉强喝了些粥与一点汤。医生让我离开待产房，说
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://infuture.pw/categories/essay/"/>
-    
-    
-      <category term="宝宝" scheme="http://infuture.pw/tags/%E5%AE%9D%E5%AE%9D/"/>
-    
-      <category term="出生" scheme="http://infuture.pw/tags/%E5%87%BA%E7%94%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo+github 创建博客</title>
-    <link href="http://infuture.pw/2016/05/12/hexo-github-blog/"/>
-    <id>http://infuture.pw/2016/05/12/hexo-github-blog/</id>
-    <published>2016-05-12T06:09:27.661Z</published>
-    <updated>2016-05-13T07:06:16.834Z</updated>
-    
-    <content type="html">&lt;h3 id=&quot;安装node&quot;&gt;&lt;a href=&quot;#安装node&quot; class=&quot;headerlink&quot; title=&quot;安装node&quot;&gt;&lt;/a&gt;安装node&lt;/h3&gt;&lt;h3 id=&quot;安装TortoiseGit&quot;&gt;&lt;a href=&quot;#安装TortoiseGit&quot; class=&quot;headerlink&quot; title=&quot;安装TortoiseGit&quot;&gt;&lt;/a&gt;安装TortoiseGit&lt;/h3&gt;&lt;h3 id=&quot;在GitHub创建用户&quot;&gt;&lt;a href=&quot;#在GitHub创建用户&quot; class=&quot;headerlink&quot; title=&quot;在GitHub创建用户&quot;&gt;&lt;/a&gt;在&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;创建用户&lt;/h3&gt;&lt;p&gt;创建用户(sign up)，并创建仓库(New repository)，Repository name 以新建的github账户名为前缀例如 用户名.github.io&lt;/p&gt;
-&lt;h3 id=&quot;本地执行命令安装&quot;&gt;&lt;a href=&quot;#本地执行命令安装&quot; class=&quot;headerlink&quot; title=&quot;本地执行命令安装&quot;&gt;&lt;/a&gt;本地执行命令安装&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo npm install -g hexo&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;执行以下命令初始化项目&quot;&gt;&lt;a href=&quot;#执行以下命令初始化项目&quot; class=&quot;headerlink&quot; title=&quot;执行以下命令初始化项目&quot;&gt;&lt;/a&gt;执行以下命令初始化项目&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo init&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;安装模板&quot;&gt;&lt;a href=&quot;#安装模板&quot; class=&quot;headerlink&quot; title=&quot;安装模板&quot;&gt;&lt;/a&gt;安装模板&lt;/h3&gt;&lt;p&gt;（可以去&lt;a href=&quot;https://hexo.io/themes/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官网&lt;/a&gt;选择自己喜欢的），复制模板git地址，使用TortoiseGit clone到themes目录下，注意一下需要文件夹名。&lt;/p&gt;
-&lt;h3 id=&quot;安装相应的插件&quot;&gt;&lt;a href=&quot;#安装相应的插件&quot; class=&quot;headerlink&quot; title=&quot;安装相应的插件&quot;&gt;&lt;/a&gt;安装相应的&lt;a href=&quot;https://hexo.io/plugins/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;插件&lt;/a&gt;&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-renderer-less --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;安装常用插件&quot;&gt;&lt;a href=&quot;#安装常用插件&quot; class=&quot;headerlink&quot; title=&quot;安装常用插件&quot;&gt;&lt;/a&gt;安装常用插件&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-generator-index --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-generator-archive --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-generator-category --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-generator-tag --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-server --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-deployer-git --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-deployer-heroku --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-deployer-rsync --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-deployer-openshift --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-renderer-marked@0.2 --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-renderer-stylus@0.2 --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-generator-feed@1 --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-generator-sitemap@1 --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;安装搜索插件&quot;&gt;&lt;a href=&quot;#安装搜索插件&quot; class=&quot;headerlink&quot; title=&quot;安装搜索插件&quot;&gt;&lt;/a&gt;安装搜索插件&lt;/h3&gt;&lt;p&gt;现在官网提供两种，根据模板来选择相应的插件&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm i -S hexo-generator-json-content&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;绑定域名&quot;&gt;&lt;a href=&quot;#绑定域名&quot; class=&quot;headerlink&quot; title=&quot;绑定域名&quot;&gt;&lt;/a&gt;绑定域名&lt;/h3&gt;&lt;p&gt;1、注册好域名，解析时选择CNAME解析，解析到注册时写的Repository name， 对www、@都进行解析&lt;br&gt;2、在github里新建(new file) CNAME文件，文件内容为绑定的域名&lt;/p&gt;
-&lt;h3 id=&quot;安装好后的package-json&quot;&gt;&lt;a href=&quot;#安装好后的package-json&quot; class=&quot;headerlink&quot; title=&quot;安装好后的package.json&quot;&gt;&lt;/a&gt;安装好后的package.json&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;string&quot;&gt;&quot;name&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;hexo-site&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;string&quot;&gt;&quot;version&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;0.0.0&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;string&quot;&gt;&quot;private&quot;&lt;/span&gt;: &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;string&quot;&gt;&quot;hexo&quot;&lt;/span&gt;: &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;version&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;3.2.0&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#125;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;string&quot;&gt;&quot;dependencies&quot;&lt;/span&gt;: &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^3.2.0&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-deployer-git&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.1.0&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-deployer-heroku&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.1.0&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-deployer-openshift&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.1.0&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-deployer-rsync&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.1.1&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-generator-archive&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.1.4&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-generator-category&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.1.3&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-generator-feed&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^1.1.0&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-generator-index&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.2.0&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-generator-json-content&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^2.1.2&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-generator-sitemap&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^1.1.2&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-generator-tag&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.2.0&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-renderer-ejs&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.2.0&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-renderer-less&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.1.3&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-renderer-marked&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.2.10&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-renderer-stylus&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.3.1&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-server&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.2.0&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;安装node&quot;&gt;&lt;a href=&quot;#安装node&quot; class=&quot;headerlink&quot; title=&quot;安装node&quot;&gt;&lt;/a&gt;安装node&lt;/h3&gt;&lt;h3 id=&quot;安装TortoiseGit&quot;&gt;&lt;a href=&quot;#安装TortoiseGit&quot; class=&quot;he
+      &lt;h3 id=&quot;密码必须包含大写字母、小写字母、数字这三种字符，不能有空格，长度-6-15-位&quot;&gt;&lt;a href=&quot;#密码必须包含大写字母、小写字母、数字这三种字符，不能有空格，长度-6-15-位&quot; class=&quot;headerlink&quot; title=&quot;密码必须包含大写字母、小写字
     
     </summary>
     
       <category term="Web前端" scheme="http://infuture.pw/categories/web-front/"/>
     
     
-      <category term="hexo" scheme="http://infuture.pw/tags/hexo/"/>
+      <category term="正则" scheme="http://infuture.pw/tags/%E6%AD%A3%E5%88%99/"/>
     
-      <category term="github" scheme="http://infuture.pw/tags/github/"/>
-    
-      <category term="创建博客" scheme="http://infuture.pw/tags/%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+      <category term="常用正则" scheme="http://infuture.pw/tags/%E5%B8%B8%E7%94%A8%E6%AD%A3%E5%88%99/"/>
     
   </entry>
   
   <entry>
     <title>hexo 常用命令(command)</title>
-    <link href="http://infuture.pw/2016/05/11/hexo-command/"/>
-    <id>http://infuture.pw/2016/05/11/hexo-command/</id>
-    <published>2016-05-11T07:21:52.438Z</published>
+    <link href="http://infuture.pw/2016/07/19/regular/"/>
+    <id>http://infuture.pw/2016/07/19/regular/</id>
+    <published>2016-07-19T06:00:46.008Z</published>
     <updated>2016-05-13T07:06:14.882Z</updated>
     
     <content type="html">&lt;h3 id=&quot;简写&quot;&gt;&lt;a href=&quot;#简写&quot; class=&quot;headerlink&quot; title=&quot;简写&quot;&gt;&lt;/a&gt;简写&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo n == hexo new&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo p == hexo publish&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo g == hexo generate&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo s == hexo server&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo d == hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -216,6 +149,99 @@
       <category term="command" scheme="http://infuture.pw/tags/command/"/>
     
       <category term="常用命令" scheme="http://infuture.pw/tags/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>宝宝一个月多可爱搞笑样子</title>
+    <link href="http://infuture.pw/2016/05/13/baby-one-monthy/"/>
+    <id>http://infuture.pw/2016/05/13/baby-one-monthy/</id>
+    <published>2016-05-13T07:19:49.710Z</published>
+    <updated>2016-05-13T07:29:55.897Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;睡觉时可爱的样子&quot;&gt;&lt;a href=&quot;#睡觉时可爱的样子&quot; class=&quot;headerlink&quot; title=&quot;睡觉时可爱的样子&quot;&gt;&lt;/a&gt;睡觉时可爱的样子&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://7xu0aj.com1.z0.glb.clouddn.com/baby-onemonthy/2016-02-14%20090216.jpg&quot; alt=&quot;&quot; title=&quot;睡觉时可爱的样子&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;刚喝饱奶&quot;&gt;&lt;a href=&quot;#刚喝饱奶&quot; class=&quot;headerlink&quot; title=&quot;刚喝饱奶&quot;&gt;&lt;/a&gt;刚喝饱奶&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://7xu0aj.com1.z0.glb.clouddn.com/baby-onemonthy/2016-02-13%20104635.jpg&quot; alt=&quot;&quot; title=&quot;刚喝饱奶欲睡&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xu0aj.com1.z0.glb.clouddn.com/baby-onemonthy/2016-02-13%20104649.jpg&quot; alt=&quot;&quot; title=&quot;刚喝饱奶欲睡&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;刚洗澡后得意的样子&quot;&gt;&lt;a href=&quot;#刚洗澡后得意的样子&quot; class=&quot;headerlink&quot; title=&quot;刚洗澡后得意的样子&quot;&gt;&lt;/a&gt;刚洗澡后得意的样子&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://7xu0aj.com1.z0.glb.clouddn.com/faeaeb9bc8e1769eb0152d49713342f1.jpg&quot; alt=&quot;&quot; title=&quot;刚洗澡后得意的样子&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xu0aj.com1.z0.glb.clouddn.com/baby-onemonthy/2016-02-11%20172039.jpg&quot; alt=&quot;&quot; title=&quot;刚洗澡后得意的样子&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;睡觉时可爱的样子&quot;&gt;&lt;a href=&quot;#睡觉时可爱的样子&quot; class=&quot;headerlink&quot; title=&quot;睡觉时可爱的样子&quot;&gt;&lt;/a&gt;睡觉时可爱的样子&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;http://7xu0aj.com1.z0.glb.clouddn.co
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://infuture.pw/categories/essay/"/>
+    
+    
+      <category term="宝宝" scheme="http://infuture.pw/tags/%E5%AE%9D%E5%AE%9D/"/>
+    
+      <category term="可爱" scheme="http://infuture.pw/tags/%E5%8F%AF%E7%88%B1/"/>
+    
+      <category term="搞笑" scheme="http://infuture.pw/tags/%E6%90%9E%E7%AC%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>宝宝出生了</title>
+    <link href="http://infuture.pw/2016/05/13/baby-born/"/>
+    <id>http://infuture.pw/2016/05/13/baby-born/</id>
+    <published>2016-05-13T03:12:59.563Z</published>
+    <updated>2016-05-13T07:00:36.142Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;四天五夜的煎熬&quot;&gt;&lt;a href=&quot;#四天五夜的煎熬&quot; class=&quot;headerlink&quot; title=&quot;四天五夜的煎熬&quot;&gt;&lt;/a&gt;四天五夜的煎熬&lt;/h3&gt;&lt;p&gt;经过四天五夜的煎熬，晚上6点多宫口终于开到6公分了，太太勉强喝了些粥与一点汤。医生让我离开待产房，说快要生了。等了2个小时多，直到8点多听到宝宝的哭声，哭声很宏亮，肺活量很好，哭好一阵才停下来。不知道太太怎么样了。在外面又等了近一个小时，不见有医院出来，我自己跑进去了。宝宝正在太太怀里喝奶，看太太的精神状态还好，我与太太都很开心。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xu0aj.com1.z0.glb.clouddn.com/baby-born/2015-12-15-224353.jpg&quot; alt=&quot;&quot; title=&quot;挂宝宝床边的卡片&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xu0aj.com1.z0.glb.clouddn.com/baby-born/2015-12-16-111639.jpg&quot; alt=&quot;&quot; title=&quot;第一次洗澡后的宝宝&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;四天五夜的煎熬&quot;&gt;&lt;a href=&quot;#四天五夜的煎熬&quot; class=&quot;headerlink&quot; title=&quot;四天五夜的煎熬&quot;&gt;&lt;/a&gt;四天五夜的煎熬&lt;/h3&gt;&lt;p&gt;经过四天五夜的煎熬，晚上6点多宫口终于开到6公分了，太太勉强喝了些粥与一点汤。医生让我离开待产房，说
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://infuture.pw/categories/essay/"/>
+    
+    
+      <category term="宝宝" scheme="http://infuture.pw/tags/%E5%AE%9D%E5%AE%9D/"/>
+    
+      <category term="出生" scheme="http://infuture.pw/tags/%E5%87%BA%E7%94%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo+github 创建博客</title>
+    <link href="http://infuture.pw/2016/05/12/hexo-github-blog/"/>
+    <id>http://infuture.pw/2016/05/12/hexo-github-blog/</id>
+    <published>2016-05-12T06:09:27.661Z</published>
+    <updated>2016-05-13T07:06:16.834Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;安装node&quot;&gt;&lt;a href=&quot;#安装node&quot; class=&quot;headerlink&quot; title=&quot;安装node&quot;&gt;&lt;/a&gt;安装node&lt;/h3&gt;&lt;h3 id=&quot;安装TortoiseGit&quot;&gt;&lt;a href=&quot;#安装TortoiseGit&quot; class=&quot;headerlink&quot; title=&quot;安装TortoiseGit&quot;&gt;&lt;/a&gt;安装TortoiseGit&lt;/h3&gt;&lt;h3 id=&quot;在GitHub创建用户&quot;&gt;&lt;a href=&quot;#在GitHub创建用户&quot; class=&quot;headerlink&quot; title=&quot;在GitHub创建用户&quot;&gt;&lt;/a&gt;在&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;创建用户&lt;/h3&gt;&lt;p&gt;创建用户(sign up)，并创建仓库(New repository)，Repository name 以新建的github账户名为前缀例如 用户名.github.io&lt;/p&gt;
+&lt;h3 id=&quot;本地执行命令安装&quot;&gt;&lt;a href=&quot;#本地执行命令安装&quot; class=&quot;headerlink&quot; title=&quot;本地执行命令安装&quot;&gt;&lt;/a&gt;本地执行命令安装&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo npm install -g hexo&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;执行以下命令初始化项目&quot;&gt;&lt;a href=&quot;#执行以下命令初始化项目&quot; class=&quot;headerlink&quot; title=&quot;执行以下命令初始化项目&quot;&gt;&lt;/a&gt;执行以下命令初始化项目&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo init&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;安装模板&quot;&gt;&lt;a href=&quot;#安装模板&quot; class=&quot;headerlink&quot; title=&quot;安装模板&quot;&gt;&lt;/a&gt;安装模板&lt;/h3&gt;&lt;p&gt;（可以去&lt;a href=&quot;https://hexo.io/themes/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官网&lt;/a&gt;选择自己喜欢的），复制模板git地址，使用TortoiseGit clone到themes目录下，注意一下需要文件夹名。&lt;/p&gt;
+&lt;h3 id=&quot;安装相应的插件&quot;&gt;&lt;a href=&quot;#安装相应的插件&quot; class=&quot;headerlink&quot; title=&quot;安装相应的插件&quot;&gt;&lt;/a&gt;安装相应的&lt;a href=&quot;https://hexo.io/plugins/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;插件&lt;/a&gt;&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-renderer-less --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;安装常用插件&quot;&gt;&lt;a href=&quot;#安装常用插件&quot; class=&quot;headerlink&quot; title=&quot;安装常用插件&quot;&gt;&lt;/a&gt;安装常用插件&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-generator-index --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-generator-archive --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-generator-category --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-generator-tag --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-server --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-deployer-git --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-deployer-heroku --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-deployer-rsync --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-deployer-openshift --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-renderer-marked@0.2 --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-renderer-stylus@0.2 --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-generator-feed@1 --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-generator-sitemap@1 --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;安装搜索插件&quot;&gt;&lt;a href=&quot;#安装搜索插件&quot; class=&quot;headerlink&quot; title=&quot;安装搜索插件&quot;&gt;&lt;/a&gt;安装搜索插件&lt;/h3&gt;&lt;p&gt;现在官网提供两种，根据模板来选择相应的插件&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm i -S hexo-generator-json-content&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;绑定域名&quot;&gt;&lt;a href=&quot;#绑定域名&quot; class=&quot;headerlink&quot; title=&quot;绑定域名&quot;&gt;&lt;/a&gt;绑定域名&lt;/h3&gt;&lt;p&gt;1、注册好域名，解析时选择CNAME解析，解析到注册时写的Repository name， 对www、@都进行解析&lt;br&gt;2、在github里新建(new file) CNAME文件，文件内容为绑定的域名&lt;/p&gt;
+&lt;h3 id=&quot;安装好后的package-json&quot;&gt;&lt;a href=&quot;#安装好后的package-json&quot; class=&quot;headerlink&quot; title=&quot;安装好后的package.json&quot;&gt;&lt;/a&gt;安装好后的package.json&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;string&quot;&gt;&quot;name&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;hexo-site&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;string&quot;&gt;&quot;version&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;0.0.0&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;string&quot;&gt;&quot;private&quot;&lt;/span&gt;: &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;string&quot;&gt;&quot;hexo&quot;&lt;/span&gt;: &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;version&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;3.2.0&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#125;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;string&quot;&gt;&quot;dependencies&quot;&lt;/span&gt;: &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^3.2.0&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-deployer-git&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.1.0&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-deployer-heroku&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.1.0&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-deployer-openshift&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.1.0&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-deployer-rsync&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.1.1&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-generator-archive&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.1.4&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-generator-category&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.1.3&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-generator-feed&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^1.1.0&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-generator-index&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.2.0&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-generator-json-content&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^2.1.2&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-generator-sitemap&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^1.1.2&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-generator-tag&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.2.0&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-renderer-ejs&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.2.0&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-renderer-less&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.1.3&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-renderer-marked&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.2.10&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-renderer-stylus&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.3.1&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;hexo-server&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;^0.2.0&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;安装node&quot;&gt;&lt;a href=&quot;#安装node&quot; class=&quot;headerlink&quot; title=&quot;安装node&quot;&gt;&lt;/a&gt;安装node&lt;/h3&gt;&lt;h3 id=&quot;安装TortoiseGit&quot;&gt;&lt;a href=&quot;#安装TortoiseGit&quot; class=&quot;he
+    
+    </summary>
+    
+      <category term="Web前端" scheme="http://infuture.pw/categories/web-front/"/>
+    
+    
+      <category term="hexo" scheme="http://infuture.pw/tags/hexo/"/>
+    
+      <category term="github" scheme="http://infuture.pw/tags/github/"/>
+    
+      <category term="创建博客" scheme="http://infuture.pw/tags/%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   

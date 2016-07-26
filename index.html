@@ -126,6 +126,167 @@
   <ul class="post-list">
   
     <li class="post-list-item">
+  <article id="post-hexo-command" class="article article-type-post" itemprop="blogPost">
+    
+      
+
+
+  
+    <h3 class="post-title" itemprop="name">
+      <a class="post-title-link" href="/2016/07/26/hexo-command/">常用正则</a>
+    </h3>
+  
+
+
+
+      <div class="post-meat flex-row">
+        <div class="flex-col">
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/常用正则/">常用正则</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/正则/">正则</a></li></ul>
+</div>
+        <time datetime="2016-07-25T16:00:00.000Z" itemprop="datePublished" class="post-tiem">
+  2016-07-26
+</time>
+      </div>
+      <div class="post-content" id="post-content" itemprop="postContent" >
+        
+          <h3 id="密码必须包含大写字母、小写字母、数字这三种字符，不能有空格，长度-6-15-位"><a href="#密码必须包含大写字母、小写字母、数字这三种字符，不能有空格，长度-6-15-位" class="headerlink" title="密码必须包含大写字母、小写字母、数字这三种字符，不能有空格，长度 6~15 位"></a>密码必须包含大写字母、小写字母、数字这三种字符，不能有空格，长度 6~15 位</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])[a-zA-Z0-9]&#123;6,15&#125;$"</span></span><br></pre></td></tr></table></figure>
+<h3 id="用户名-账号验证规则"><a href="#用户名-账号验证规则" class="headerlink" title="用户名/账号验证规则"></a>用户名/账号验证规则</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"/^([a-zA-Z0-9@_.-])&#123;5,30&#125;$/"</span></span><br></pre></td></tr></table></figure>
+<h3 id="密码验证规则"><a href="#密码验证规则" class="headerlink" title="密码验证规则"></a>密码验证规则</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"/^[A-Za-z0-9\!\@\#\$\%\^\*\.\`\(\)_-]&#123;6,22&#125;$/"</span></span><br></pre></td></tr></table></figure>
+        
+      </div>
+      <div class="post-footer clearfix">
+        <a href="/2016/07/26/hexo-command/" class="post-more waves-button-light">MORE</a>
+      </div>
+    
+
+  </article>
+
+
+</li>
+  
+    <li class="post-list-item">
+  <article id="post-regular" class="article article-type-post" itemprop="blogPost">
+    
+      
+
+
+  
+    <h3 class="post-title" itemprop="name">
+      <a class="post-title-link" href="/2016/07/19/regular/">hexo 常用命令(command)</a>
+    </h3>
+  
+
+
+
+      <div class="post-meat flex-row">
+        <div class="flex-col">
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/command/">command</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/常用命令/">常用命令</a></li></ul>
+</div>
+        <time datetime="2016-07-19T06:00:46.008Z" itemprop="datePublished" class="post-tiem">
+  2016-07-19
+</time>
+      </div>
+      <div class="post-content" id="post-content" itemprop="postContent" >
+        
+          <h3 id="简写"><a href="#简写" class="headerlink" title="简写"></a>简写</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ hexo n == hexo new</span><br><span class="line">$ hexo p == hexo publish</span><br><span class="line">$ hexo g == hexo generate</span><br><span class="line">$ hexo s == hexo server</span><br><span class="line">$ hexo d == hexo deploy</span><br></pre></td></tr></table></figure>
+<h3 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server <span class="comment">#Hexo 会监视文件变动并自动更新，您无须重启服务器。</span></span><br><span class="line">$ hexo server <span class="_">-s</span> <span class="comment">#静态模式</span></span><br><span class="line">$ hexo server -p 5000 <span class="comment">#更改端口</span></span><br><span class="line">$ hexo server -i 192.168.1.1 <span class="comment">#自定义 IP</span></span><br><span class="line">$ hexo clean <span class="comment">#清除缓存 网页正常情况下可以忽略此条命令</span></span><br><span class="line">$ hexo g <span class="comment">#生成静态网页</span></span><br><span class="line">$ hexo d <span class="comment">#开始部署</span></span><br></pre></td></tr></table></figure>
+<h3 id="监视文件变动"><a href="#监视文件变动" class="headerlink" title="监视文件变动"></a>监视文件变动</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate <span class="comment">#使用 Hexo 生成静态文件快速而且简单</span></span><br><span class="line">$ hexo generate --watch <span class="comment">#监视文件变动</span></span><br></pre></td></tr></table></figure>
+<h3 id="完成后部署"><a href="#完成后部署" class="headerlink" title="完成后部署"></a>完成后部署</h3><p>下面两个命令的作用是相同的<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate --deploy hexo deploy --generate</span><br><span class="line">$ hexo deploy -g hexo server -g</span><br></pre></td></tr></table></figure></p>
+<h3 id="草稿"><a href="#草稿" class="headerlink" title="草稿"></a>草稿</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo publish [layout] title;</span><br></pre></td></tr></table></figure>
+<h3 id="模版"><a href="#模版" class="headerlink" title="模版"></a>模版</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"postName"</span> <span class="comment">#新建文章</span></span><br><span class="line">$ hexo new page <span class="string">"pageName"</span> <span class="comment">#新建页面</span></span><br><span class="line">$ hexo generate <span class="comment">#生成静态页面至public目录</span></span><br><span class="line">$ hexo server <span class="comment">#开启预览访问端口（默认端口4000，'ctrl + c'关闭server）</span></span><br><span class="line">$ hexo deploy <span class="comment">#将.deploy目录部署到GitHub</span></span><br><span class="line">$ hexo new [layout] &lt;title&gt; hexo new photo <span class="string">"My Gallery"</span> hexo new <span class="string">"Hello World"</span> --lang tw</span><br></pre></td></tr></table></figure>
+<h3 id="变量说明"><a href="#变量说明" class="headerlink" title="变量说明"></a>变量说明</h3><table>
+<thead>
+<tr>
+<th>变量</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>layout</td>
+<td>布局</td>
+</tr>
+<tr>
+<td>title</td>
+<td>标题</td>
+</tr>
+<tr>
+<td>date</td>
+<td>文件建立日期</td>
+</tr>
+<tr>
+<td>title</td>
+<td>使用Hexo搭建个人博客</td>
+</tr>
+<tr>
+<td>layout</td>
+<td>post</td>
+</tr>
+<tr>
+<td>date</td>
+<td>2014-03-03 19:07:43</td>
+</tr>
+<tr>
+<td>comments</td>
+<td>true</td>
+</tr>
+<tr>
+<td>categories</td>
+<td>Blog</td>
+</tr>
+<tr>
+<td>tags</td>
+<td>[Hexo]</td>
+</tr>
+<tr>
+<td>keywords</td>
+<td>Hexo, Blog</td>
+</tr>
+<tr>
+<td>description</td>
+<td>生命在于折腾，又把博客折腾到Hexo了。给Hexo点赞。</td>
+</tr>
+<tr>
+<td>:title</td>
+<td>标题</td>
+</tr>
+<tr>
+<td>:year</td>
+<td>建立的年份（4 位数）</td>
+</tr>
+<tr>
+<td>:month</td>
+<td>建立的月份（2 位数）</td>
+</tr>
+<tr>
+<td>:i_month</td>
+<td>建立的月份（去掉开头的零）</td>
+</tr>
+<tr>
+<td>:day</td>
+<td>建立的日期（2 位数）</td>
+</tr>
+<tr>
+<td>:i_day</td>
+<td>建立的日期（去掉开头的零）</td>
+</tr>
+</tbody>
+</table>
+<h3 id="最常用命令"><a href="#最常用命令" class="headerlink" title="最常用命令"></a>最常用命令</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new page &lt;title&gt; hexo new post &lt;title&gt; <span class="comment">#写文章</span></span><br><span class="line">$ hexo n <span class="comment">#写文章</span></span><br><span class="line">$ hexo g <span class="comment">#生成</span></span><br><span class="line">$ hexo d <span class="comment">#部署 #可与 hexo g 合并为 hexo d -g</span></span><br></pre></td></tr></table></figure>
+
+        
+      </div>
+      <div class="post-footer clearfix">
+        <a href="/2016/07/19/regular/" class="post-more waves-button-light">MORE</a>
+      </div>
+    
+
+  </article>
+
+
+</li>
+  
+    <li class="post-list-item">
   <article id="post-baby-one-monthy" class="article article-type-post" itemprop="blogPost">
     
       
@@ -245,128 +406,6 @@
       </div>
       <div class="post-footer clearfix">
         <a href="/2016/05/12/hexo-github-blog/" class="post-more waves-button-light">MORE</a>
-      </div>
-    
-
-  </article>
-
-
-</li>
-  
-    <li class="post-list-item">
-  <article id="post-hexo-command" class="article article-type-post" itemprop="blogPost">
-    
-      
-
-
-  
-    <h3 class="post-title" itemprop="name">
-      <a class="post-title-link" href="/2016/05/11/hexo-command/">hexo 常用命令(command)</a>
-    </h3>
-  
-
-
-
-      <div class="post-meat flex-row">
-        <div class="flex-col">
-	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/command/">command</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/常用命令/">常用命令</a></li></ul>
-</div>
-        <time datetime="2016-05-11T07:21:52.438Z" itemprop="datePublished" class="post-tiem">
-  2016-05-11
-</time>
-      </div>
-      <div class="post-content" id="post-content" itemprop="postContent" >
-        
-          <h3 id="简写"><a href="#简写" class="headerlink" title="简写"></a>简写</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ hexo n == hexo new</span><br><span class="line">$ hexo p == hexo publish</span><br><span class="line">$ hexo g == hexo generate</span><br><span class="line">$ hexo s == hexo server</span><br><span class="line">$ hexo d == hexo deploy</span><br></pre></td></tr></table></figure>
-<h3 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server <span class="comment">#Hexo 会监视文件变动并自动更新，您无须重启服务器。</span></span><br><span class="line">$ hexo server <span class="_">-s</span> <span class="comment">#静态模式</span></span><br><span class="line">$ hexo server -p 5000 <span class="comment">#更改端口</span></span><br><span class="line">$ hexo server -i 192.168.1.1 <span class="comment">#自定义 IP</span></span><br><span class="line">$ hexo clean <span class="comment">#清除缓存 网页正常情况下可以忽略此条命令</span></span><br><span class="line">$ hexo g <span class="comment">#生成静态网页</span></span><br><span class="line">$ hexo d <span class="comment">#开始部署</span></span><br></pre></td></tr></table></figure>
-<h3 id="监视文件变动"><a href="#监视文件变动" class="headerlink" title="监视文件变动"></a>监视文件变动</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate <span class="comment">#使用 Hexo 生成静态文件快速而且简单</span></span><br><span class="line">$ hexo generate --watch <span class="comment">#监视文件变动</span></span><br></pre></td></tr></table></figure>
-<h3 id="完成后部署"><a href="#完成后部署" class="headerlink" title="完成后部署"></a>完成后部署</h3><p>下面两个命令的作用是相同的<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate --deploy hexo deploy --generate</span><br><span class="line">$ hexo deploy -g hexo server -g</span><br></pre></td></tr></table></figure></p>
-<h3 id="草稿"><a href="#草稿" class="headerlink" title="草稿"></a>草稿</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo publish [layout] title;</span><br></pre></td></tr></table></figure>
-<h3 id="模版"><a href="#模版" class="headerlink" title="模版"></a>模版</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"postName"</span> <span class="comment">#新建文章</span></span><br><span class="line">$ hexo new page <span class="string">"pageName"</span> <span class="comment">#新建页面</span></span><br><span class="line">$ hexo generate <span class="comment">#生成静态页面至public目录</span></span><br><span class="line">$ hexo server <span class="comment">#开启预览访问端口（默认端口4000，'ctrl + c'关闭server）</span></span><br><span class="line">$ hexo deploy <span class="comment">#将.deploy目录部署到GitHub</span></span><br><span class="line">$ hexo new [layout] &lt;title&gt; hexo new photo <span class="string">"My Gallery"</span> hexo new <span class="string">"Hello World"</span> --lang tw</span><br></pre></td></tr></table></figure>
-<h3 id="变量说明"><a href="#变量说明" class="headerlink" title="变量说明"></a>变量说明</h3><table>
-<thead>
-<tr>
-<th>变量</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>layout</td>
-<td>布局</td>
-</tr>
-<tr>
-<td>title</td>
-<td>标题</td>
-</tr>
-<tr>
-<td>date</td>
-<td>文件建立日期</td>
-</tr>
-<tr>
-<td>title</td>
-<td>使用Hexo搭建个人博客</td>
-</tr>
-<tr>
-<td>layout</td>
-<td>post</td>
-</tr>
-<tr>
-<td>date</td>
-<td>2014-03-03 19:07:43</td>
-</tr>
-<tr>
-<td>comments</td>
-<td>true</td>
-</tr>
-<tr>
-<td>categories</td>
-<td>Blog</td>
-</tr>
-<tr>
-<td>tags</td>
-<td>[Hexo]</td>
-</tr>
-<tr>
-<td>keywords</td>
-<td>Hexo, Blog</td>
-</tr>
-<tr>
-<td>description</td>
-<td>生命在于折腾，又把博客折腾到Hexo了。给Hexo点赞。</td>
-</tr>
-<tr>
-<td>:title</td>
-<td>标题</td>
-</tr>
-<tr>
-<td>:year</td>
-<td>建立的年份（4 位数）</td>
-</tr>
-<tr>
-<td>:month</td>
-<td>建立的月份（2 位数）</td>
-</tr>
-<tr>
-<td>:i_month</td>
-<td>建立的月份（去掉开头的零）</td>
-</tr>
-<tr>
-<td>:day</td>
-<td>建立的日期（2 位数）</td>
-</tr>
-<tr>
-<td>:i_day</td>
-<td>建立的日期（去掉开头的零）</td>
-</tr>
-</tbody>
-</table>
-<h3 id="最常用命令"><a href="#最常用命令" class="headerlink" title="最常用命令"></a>最常用命令</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new page &lt;title&gt; hexo new post &lt;title&gt; <span class="comment">#写文章</span></span><br><span class="line">$ hexo n <span class="comment">#写文章</span></span><br><span class="line">$ hexo g <span class="comment">#生成</span></span><br><span class="line">$ hexo d <span class="comment">#部署 #可与 hexo g 合并为 hexo d -g</span></span><br></pre></td></tr></table></figure>
-
-        
-      </div>
-      <div class="post-footer clearfix">
-        <a href="/2016/05/11/hexo-command/" class="post-more waves-button-light">MORE</a>
       </div>
     
 
